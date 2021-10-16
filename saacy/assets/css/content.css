@@ -1,0 +1,32 @@
+.inv{
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+
+}
+.inv *{
+    margin: 0;
+}
+.tsInv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.qte .inv, .action .inv, .nom .inv{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.nom .inv{
+
+
+    align-items: flex-start;
+
+}
+
+form a{
+    padding: 0px;
+}
