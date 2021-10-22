@@ -4,14 +4,9 @@ session_start();
 @require_once('Connexion.php');
 @require_once ('vue_generique.php');
 @require_once ('component/menu/componentMenu.php');
-@require_once('environment.php');
 
-if(Environment::$environment == "prod"){
-    Connexion::initConnexion();
-}
-else{
-    Connexion::initConnexionDev();
-}
+Connexion::initConnexion();
+
 
 $vue = new VueGenerique();
 $menuComponent = new CompMenu();
