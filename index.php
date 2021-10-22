@@ -1,6 +1,5 @@
 
 <?php
-/*
 session_start();
 @require_once('Connexion.php');
 @require_once ('vue_generique.php');
@@ -33,7 +32,5 @@ if(isset($_GET['module'])){
 }
 
 @require_once("template/template.php");
-*/
-?>
 
-<p>TEST</p>
+?>
